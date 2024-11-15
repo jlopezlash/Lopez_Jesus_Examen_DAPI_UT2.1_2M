@@ -1,0 +1,13 @@
+Pais = []
+Pais.append(input('Dime un pais que te gustaria visitar '))
+Pais.append(input('Dime un pais que te gustaria visitar '))
+Pais.append(input('Dime un pais que te gustaria visitar '))
+print('Me gustaría visitar ' + Pais[0])
+print('Me gustaría visitar ' + Pais[1])
+print('Me gustaría visitar ' + Pais[2])
+N = input('Dime una lista de numeros separados por , ')
+x = N.split(',')
+x = list(x)
+a = max(x)
+b = min(x)
+print(a , b)
